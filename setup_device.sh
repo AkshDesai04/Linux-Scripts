@@ -12,6 +12,9 @@ sudo apt-get update -y
 echo "Installing prerequisite packages..."
 sudo apt-get install -y curl wget apt-transport-https gnupg-agent software-properties-common snapd
 
+sudo swapoff -a
+sudo nano /etc/fstab
+
 #================================================================================#
 # --- CODING TOOLS ---
 #================================================================================#
