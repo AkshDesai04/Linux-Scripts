@@ -55,6 +55,10 @@ sudo chmod 644 /usr/share/keyrings/redis-archive-keyring.gpg
 echo "deb [signed-by=/usr/share/keyrings/redis-archive-keyring.gpg] https://packages.redis.io/deb $(lsb_release -cs) main" | sudo tee /etc/apt/sources.list.d/redis.list
 sudo apt-get install -y redis
 
+# Starting the redis server
+sudo systemctl enable redis-server
+sudo systemctl start redis-server
+
 # Postman (using Snap)
 echo "Installing Postman..."
 sudo snap install postman
