@@ -35,6 +35,9 @@ rm -f packages.microsoft.gpg
 sudo apt-get update
 sudo apt-get install -y code
 
+# Neovim
+sudo apt install -y neovim
+
 # Docker
 echo "Installing Docker..."
 sudo install -m 0755 -d /etc/apt/keyrings
