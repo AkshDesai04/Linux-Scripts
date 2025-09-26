@@ -187,6 +187,9 @@ rm zoom_amd64.deb
 echo "Installing qBittorrent..."
 sudo apt-get install -y qbittorrent
 
+# Blender
+sudo apt install blender
+
 # VirtualBox
 echo "Installing VirtualBox..."
 sudo apt-get install -y virtualbox
