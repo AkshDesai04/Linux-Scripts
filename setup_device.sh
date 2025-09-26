@@ -148,6 +148,9 @@ sudo apt-get install -y remmina
 echo "Ensuring SSH client is installed..."
 sudo apt-get install -y openssh-client
 
+# Terminator
+sudo apt install -y terminator
+
 # Gemini Desktop (Unofficial, via Snap)
 echo "Installing Gemini Desktop..."
 sudo snap install gemini-desktop
