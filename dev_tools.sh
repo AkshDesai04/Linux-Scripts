@@ -1,16 +1,1 @@
-sudo apt install -y git
-sudo apt install -y curl
-sudo apt install -y wget
-sudo apt install -y unzip
-sudo apt install -y zip
-sudo apt install -y tar
-sudo apt install -y autoconf
-sudo apt install -y libtool
-sudo apt install -y pkg-config
-sudo apt install -y gdb
-sudo apt install -y lldb
-sudo apt install -y valgrind
-sudo apt install -y nasm
-sudo apt install -y neovim
-sudo apt install -y apt-transport-https
-sudo apt install -y gnupg
+sudo apt install -y git curl wget unzip zip tar autoconf libtool pkg-config gdb lldb valgrind nasm neovim apt-transport-https gnupg
