@@ -2,7 +2,7 @@
 
 # This script executes all the setup scripts in a logical order.
 
-set -e
+set +e
 
 # Get the directory of the script
 SCRIPT_DIR="$(cd "$(dirname "${BASH_SOURCE[0]}")" && pwd)"

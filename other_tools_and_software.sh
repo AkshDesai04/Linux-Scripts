@@ -1,3 +1,4 @@
+set +e
 sudo apt install -y blender
 
 echo "Installing Remmina..."

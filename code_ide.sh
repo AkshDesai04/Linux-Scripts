@@ -1,3 +1,4 @@
+set +e
 echo "Installing PyCharm Community..."
 sudo snap install pycharm-community --classic
 

@@ -1,3 +1,4 @@
+set +e
 ollama pull embeddinggemma
 ollama pull nomic-embed-text
 ollama pull mxbai-embed-large

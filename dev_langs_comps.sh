@@ -1,1 +1,2 @@
+set +e
 sudo apt install -y build-essential python3 python3-pip python3-venv gcc g++ make cmake default-jdk npm clang golang-go ruby-full php rustc cargo nodejs automake

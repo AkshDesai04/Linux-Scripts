@@ -1,3 +1,4 @@
+set +e
 echo "Downloading installer script..."
 wget -O gnome-shell-extension-installer "https://github.com/brunelli/gnome-shell-extension-installer/raw/master/gnome-shell-extension-installer"
 chmod +x gnome-shell-extension-installer
