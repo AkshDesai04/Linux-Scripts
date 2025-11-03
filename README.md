@@ -1,0 +1,1 @@
+`TEMP_DIR=$(mktemp -d) && curl -sL https://github.com/AkshDesai04/Linux-Scripts/archive/refs/heads/main.tar.gz | tar -xz -C $TEMP_DIR --strip-components=1 && chmod +x $TEMP_DIR/*.sh && $TEMP_DIR/main.sh && rm -rf $TEMP_DIR`
