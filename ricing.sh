@@ -22,4 +22,6 @@ echo "Configuration complete! Restarting GNOME Shell to apply changes..."
 sleep 2
 killall -SIGQUIT gnome-shell
 
+dconf load /org/gnome/shell/extensions/ < ./gnome_extension_manager_config_export.dconf
+
 echo "Done! Your top bar is now customized."
