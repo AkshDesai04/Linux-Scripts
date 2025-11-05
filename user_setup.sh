@@ -55,3 +55,21 @@ gsettings set org.gnome.desktop.background picture-options 'zoomed'
 
 echo "Wallpaper set successfully."
 echo "Done."
+
+echo "Setting GNOME Appearance and Dock settings..."
+
+# Set Appearance style to dark mode
+gsettings set org.gnome.desktop.interface color-scheme 'prefer-dark'
+
+# Set accent color to teal
+gsettings set org.gnome.desktop.interface accent-color 'teal'
+
+# Set Ubuntu desktop dock icon size to 32
+gsettings set org.gnome.shell.extensions.dash-to-dock dash-max-icon-size 32
+
+# Set Ubuntu desktop dock panel mode to off
+gsettings set org.gnome.shell.extensions.dash-to-dock extend-height false
+
+# Set Ubuntu desktop dock auto-hide the dock to on
+gsettings set org.gnome.shell.extensions.dash-to-dock dock-fixed false
+gsettings set org.gnome.shell.extensions.dash-to-dock autohide true
