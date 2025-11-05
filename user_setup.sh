@@ -39,7 +39,7 @@ rm "$TEMP_PIC_PATH"
 echo "Setting wallpaper..."
 if [ ! -f "$WALLPAPER_PATH" ]; then
     echo "Error: Wallpaper file not found at $WALLPAPER_PATH"
-    echo "Please make sure 'wallpaper.png' is in the same directory as this script."
+    echo "Please make sure 'wallpaper.jpg' is in the same directory as this script."
     exit 1
 fi
 

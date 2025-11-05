@@ -1,5 +1,9 @@
 set +e
 
+echo "Starting Ollama service in the background..."
+ollama serve &
+sleep 5
+
 # Embedding Models
 ollama pull embeddinggemma
 ollama pull nomic-embed-text
