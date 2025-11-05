@@ -21,5 +21,9 @@ SCRIPT_DIR="$(cd "$(dirname "${BASH_SOURCE[0]}")" && pwd)"
 "$SCRIPT_DIR/ollama_model_pulls.sh"
 "$SCRIPT_DIR/ricing.sh"
 "$SCRIPT_DIR/service_startup.sh"
+"$SCRIPT_DIR/update_and_upgrade.sh"
 
 echo "All scripts executed successfully!"
+echo "Rebooting in 30 secs."
+
+sudo reboot
