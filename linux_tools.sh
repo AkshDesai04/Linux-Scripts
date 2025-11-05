@@ -9,3 +9,7 @@ sudo apt install -y tmux
 sudo apt install -y neofetch
 sudo apt install -y top
 sudo apt install -y iotop
+
+echo "--- Installing lm-sensors ---"
+sudo apt install -y lm-sensors
+yes | sudo sensors-detect
