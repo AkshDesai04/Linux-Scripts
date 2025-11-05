@@ -5,3 +5,11 @@ sudo apt install -y ltrace
 sudo apt install -y shellcheck
 sudo apt install -y radare2
 sudo apt install -y meld
+sudo apt install -y httpie
+sudo pip3 install thefuck
+
+echo "--- Installing zoxide ---"
+curl -sS https://raw.githubusercontent.com/ajeetdsouza/zoxide/main/install.sh | bash
+
+echo "--- Installing lazydocker ---"
+curl https://raw.githubusercontent.com/jesseduffield/lazydocker/master/scripts/install_update_linux.sh | bash

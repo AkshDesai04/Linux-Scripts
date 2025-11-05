@@ -35,3 +35,15 @@ sudo apt install -y silversearcher-ag
 sudo apt install -y tldr
 sudo apt install -y gparted
 sudo apt install -y timeshift
+sudo apt install -y btop
+sudo apt install -y nmap
+sudo apt install -y traceroute
+sudo apt install -y duf
+sudo apt install -y eza
+sudo apt install -y lsd
+sudo apt install -y fd-find # on Debian/Ubuntu, binary may be fdfind
+sudo apt install -y dnsutils # for dig and nslookup
+
+# On Debian/Ubuntu, the 'bat' binary is sometimes named 'batcat'
+# If 'bat' doesn't work, try 'batcat' or create a symlink:
+# sudo ln -s /usr/bin/batcat /usr/local/bin/bat

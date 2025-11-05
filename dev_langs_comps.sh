@@ -8,4 +8,9 @@ sudo apt install -y ruby-full
 sudo apt install -y php
 sudo apt install -y rustc
 sudo apt install -y cargo
-sudo apt install -y nodejs
+cargo install sd
+cargo install git-delta
+cargo install gping
+sudo apt install -y nodejs npm
+sudo pip3 install yq
+sudo npm install -g fx
