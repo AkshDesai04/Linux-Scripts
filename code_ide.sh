@@ -9,3 +9,9 @@ sudo sh -c 'echo "deb [arch=amd64,arm64,armhf signed-by=/etc/apt/trusted.gpg.d/p
 rm -f packages.microsoft.gpg
 sudo apt-get update
 sudo apt-get install -y code
+
+echo "Installing Cursor..."
+wget "https://download.cursor.com/linux/deb/x64/latest" -O cursor.deb
+sudo dpkg -i cursor.deb
+sudo apt-get install -f -y
+rm cursor.deb
