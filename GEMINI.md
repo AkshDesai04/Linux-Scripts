@@ -19,15 +19,15 @@ chmod +x main.sh && ./main.sh
 The `main.sh` script will then execute the following scripts in order:
 
 *   `update_and_upgrade.sh`: Updates and upgrades the system's package repositories.
-*   `linux_tools.sh`: Installs essential Linux command-line tools.
+*   `linux_tools.sh`: Installs essential Linux command-line tools like `htop` and `lm-sensors`.
 *   `dev_tools.sh`: Installs common development tools like Git, curl, and build-essentials.
 *   `dev_langs_comps.sh`: Installs various programming languages and compilers.
-*   `user_setup.sh`: Configures the user's profile, including setting the profile picture from GitHub and the desktop wallpaper.
+*   `user_setup.sh`: Configures the user's profile, including setting the profile picture from GitHub, desktop wallpaper, and various GNOME desktop settings.
 *   `code_ide.sh`: Installs code editors and IDEs like Visual Studio Code and PyCharm.
 *   `dev_env.sh`: Sets up the development environment with tools like Docker, Redis, and PostgreSQL.
 *   `dev_cloud_env.sh`: Installs cloud-related command-line interfaces (CLIs) like the AWS CLI and Google Cloud SDK.
 *   `productivity_tools.sh`: Installs productivity-related software.
-*   `other_tools_and_software.sh`: Installs other miscellaneous software.
+*   `other_tools_and_software.sh`: Installs other miscellaneous software like `anydesk`.
 *   `ollama_model_pulls.sh`: Pulls models for Ollama.
 *   `ricing.sh`: Placeholder for ricing/customization scripts.
 *   `service_startup.sh`: Placeholder for scripts that start services.
