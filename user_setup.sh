@@ -61,6 +61,9 @@ echo "Setting GNOME Appearance and Dock settings..."
 # Set Appearance style to dark mode
 gsettings set org.gnome.desktop.interface color-scheme 'prefer-dark'
 
+# Set clock to show seconds
+gsettings set org.gnome.desktop.interface clock-show-seconds true
+
 # Set accent color to teal
 gsettings set org.gnome.desktop.interface accent-color 'teal'
 
